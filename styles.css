@@ -1,0 +1,167 @@
+h1 {
+  font-family:"oswald";
+  text-align:center;
+  color: #662200;
+}
+
+nav img {
+  display: inline-block;
+}
+
+.nav {
+  display: inline-block;
+  float: right;
+}
+
+.nav li {
+  display: inline-block;
+  padding: 10px;
+  
+  font-family: Oswald;
+  color: #b3d9ff;
+  border: 3px dotted black;
+}
+.nav li a{
+   color: #b3d9ff;
+   font-size: 23px;
+   text-decoration: none;
+}
+.nav li:hover{
+  background-color: brown;
+  transition:.5s;
+  cursor:pointer;
+}
+.nav li:hover a{ 
+  color: white;
+}
+.bg1{
+  background-image: url("https://images.unsplash.com/photo-1521017432531-fbd92d768814?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+  width:100%;
+  height:auto;
+  background-position:center center;
+}
+.logo{
+  border-radius:100%;
+  width:150px;
+  height:150px;
+}
+.coffee img{
+  display: block;
+    margin: 0 auto;
+}
+p{
+  font-family:"roboto";
+}
+
+marquee{
+  font-weight:700;
+  color:#662200;
+  font-family:Akronim;
+
+  margin:20px;
+  height:75px;
+  padding-top:17px;
+  font-size:45px;
+}
+
+.sjm{
+  background-image:url("https://images.unsplash.com/photo-1510148199876-8a856ee41d42?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+
+padding:20px;
+color: #fcfaf9;
+font-size: larger;
+}
+body{
+  background-color: #b3d9ff
+;
+  margin:0 auto;
+  width:720px;
+  
+}
+#gallery img{
+  width:100%;
+  height:auto;
+}
+h2{
+  font-family:'oswald';
+  text-align:center;
+  color: #662200;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+/*hello Janice your past self says this is very important, please read it*/
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: #662200;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+/*happy coding*/
+.flex{
+  display:flex;
+}
+.flex p{
+  padding:10px;
+}
+.container p a { color:white;
+  font-size: 15px;
+  text-decoration: bold;
+ 
+ 
+ font-family: Oswald;
+ border: 1px brown;
+}
+
+
+.container p a:hover{
+ background-color: #b3d9ff;
+ transition:.5s;
+ cursor:pointer;
+}
